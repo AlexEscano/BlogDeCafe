@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- prefetch -->
+    <link rel="prefetch" href="nosotros.html" as="document">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@800&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@800&family=Staatliches&display=swap" rel="stylesheet">
+    <!-- styles -->
+     <link rel="preload" href="/styles/normalize.css" as="style">
+     <link rel="stylesheet" href="/styles/normalize.css">
+     <link re="preload" href="/styles/style.css" as="style">
+     <link rel="stylesheet" href="/styles/style.css">
+
+     
+    <title>BLOG CAFE | AlexDev</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafe</span> </h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a class="navegacion__enlace" href="index.html">Home</a>
+                    <a class="navegacion__enlace" href="cursos.html">Courses</a>
+                    <a class="navegacion__enlace" href="contacto.html">Contact</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin">Blog de Cafe con Consejos y cursos</h2>
+            <p class="no-margin">Aprende todo sobre el cafe ☕ con los mejores expertos y cursos que le ofrecemos!</p>
+            
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <div class="contenedor contenedor-contacto">
+        <h3 class="centrar-texto">Contacto</h3>
+
+        <div class="contacto-bg"></div>
+
+        <form class="formulario">
+            <div class="campo">
+                <label class="campo__label" for="nombre">Nombre</label>
+                <input class="campo__field" id="nombre" type="text" name="nombre" placeholder="Nombre">
+            </div>
+            <div class="campo">
+                <label class="campo__label" for="email">E-Mail</label>
+                <input class="campo__field" id="email" type="email" name="email" placeholder="E-Mail">
+            </div>
+            <div class="campo">
+                <label class="campo__label" for="mensaje">Mensaje</label>
+                <textarea class="campo__field campo__field--textarea" name="mensaje" id="mensaje"></textarea>
+            </div>
+
+            <div class="campo">
+                <input type="submit" value="Enviar" class="boton boton--primario">
+            </div>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="contenedor footer__contenido">
+
+            <h2 class="footer__logo logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafe</span></h2>
+            <nav class="footer__navegacion navegacion ">
+                <a class=" no-padding" href="index.html">Home</a>
+                <a class=" no-padding" href="cursos.html">Courses</a>
+                <a class=" no-padding" href="contacto.html">Contact</a>
+            </nav>
+
+
+        </div>
+    </footer>
+    
+</body>
+</html>

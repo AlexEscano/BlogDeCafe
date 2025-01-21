@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PAgina para saber de cafe un blog de cafe">
+     <!-- prefetch -->
+     <link rel="prefetch" href="nosotros.html" as="document">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@800&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@800&family=Staatliches&display=swap" rel="stylesheet">
+    <!-- styles -->
+    <link rel="preload" href="/styles/normalize.css" as="style">
+    <link rel="stylesheet" href="/styles/normalize.css">
+    <link re="preload" href="/styles/style.css" as="style">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>BLOG CAFE | AlexDev</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafe</span> </h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a class="navegacion__enlace" href="index.html">Home</a>
+                    <a class="navegacion__enlace" href="cursos.html">Courses</a>
+                    <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin">Blog de Cafe con Consejos y cursos</h2>
+            <p class="no-margin">Aprende todo sobre el cafe ☕ con los mejores expertos y cursos que le ofrecemos!</p>
+            
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <div class="contenedor contenido">
+        <main class="main">
+
+            <h3>Blog de cafe</h3>
+            <article class="entrada">
+                <picture>
+                    <source srcset="/img/blog1.webp" type="image/webp">
+                    <img loading="lazy" src="/img/blog1.jpg" alt="" class="entrada__img">
+                </picture>
+                
+                <div class="entrada__contenido no-margin">
+                    <h4 class="no-margin">Conoce todo sobre el cafe</h4>
+                    <p class="no-margin">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim necessitatibus numquam impedit quisquam molestiae et itaque in facilis quas labore minima laboriosam quod expedita praesentium, voluptates nobis. Velit, dolorum enim!</p>
+                </div>
+                <a href="entrada.html" class="boton boton--primario">Leer entrada</a>
+            </article>
+            <article class="entrada">
+                <picture>
+                    <source srcset="/img/blog2.webp" type="image/webp">
+                    <img loading="lazy" src="/img/blog2.jpg" alt="" class="entrada__img">
+                </picture>
+                <div class="entrada__contenido no-margin">
+                    <h4 class="no-margin">3 recetas con cafe que te encantaran</h4>
+                    <p class="no-margin">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim necessitatibus numquam impedit quisquam molestiae et itaque in facilis quas labore minima laboriosam quod expedita praesentium, voluptates nobis. Velit, dolorum enim!</p>
+                </div>
+                <a href="entrada.html" class="boton boton--primario">Leer entrada</a>
+            </article>
+            <article class="entrada">
+                <picture>
+                    <source srcset="/img/blog3.webp" type="image/webp">
+                    <img loading="lazy" src="/img/blog3.jpg" alt="" class="entrada__img">
+                </picture>
+                <div class="entrada__contenido no-margin">
+                    <h4 class="no-margin">Benficios del cafe</h4>
+                    <p class="no-margin">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim necessitatibus numquam impedit quisquam molestiae et itaque in facilis quas labore minima laboriosam quod expedita praesentium, voluptates nobis. Velit, dolorum enim!</p>
+                </div>
+                <a href="entrada.html" class="boton boton--primario">Leer entrada</a>
+            </article>
+     </main>
+
+     <!-- Aside -->
+      <aside class="aside">
+        <h3>Cursos y talleres</h3>
+
+        <ul class="cursos no-padding">
+            <li class="widget-cursos">
+                <h4>Tecnicas de extracion de cafe</h4>
+                <p class="no-ma widget-cursos__label">Precio: 
+                    <span class="widget-cursos__info">GRATIS</span>
+                </p>
+                <p class="no-ma widget-cursos__label">Cupos: 
+                    <span class="widget-cursos__info">20</span>
+                </p>
+                <a href="#" class="boton boton--secundario no-margin">Mas informacion</a>
+            </li>
+
+        
+        
+            <li class="widget-cursos">
+                <h4>Tecnicas de extracion de cafe</h4>
+                <p class="widget-cursos__label">Precio: 
+                    <span class="widget-cursos__info">GRATIS</span>
+                </p>
+                <p class="no-ma widget-cursos__label">Cupos: 
+                    <span class="widget-cursos__info">20</span>
+                </p>
+                <a href="#" class="boton boton--secundario no-margin">Mas informacion</a>
+            </li>
+
+        </ul>
+        
+        
+
+      </aside>
+    </div>
+
+    <footer class="footer">
+        <div class="contenedor footer__contenido">
+
+            <h2 class="footer__logo logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafe</span></h2>
+            <nav class="footer__navegacion navegacion ">
+                <a class=" no-padding" href="index.html">Home</a>
+                <a class=" no-padding" href="cursos.html">Courses</a>
+                <a class=" no-padding" href="contacto.html">Contact</a>
+            </nav>
+
+
+        </div>
+    </footer>
+    
+    <script src="/js/modernizr.js"></script>
+</body>
+</html>
